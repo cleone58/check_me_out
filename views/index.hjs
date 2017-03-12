@@ -6,6 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
   	<link rel="stylesheet" href="theme/css/bootstrap.min.css">
   	<link rel="stylesheet" href="theme/css/style.css">
+
+
   </head>
   <body>
     <div id="root"></div>
@@ -25,11 +27,11 @@
         speed: 0.2
       });
       $('.services-section').parallax({
-        imageSrc: 'img/bg-2.jpg',
+        imageSrc: 'img/Ali.jpg',
         speed: 0.2
     });
       $('.contact-section').parallax({
-        imageSrc: 'img/tesla.jpg',
+        imageSrc: 'img/MJ1987.jpg',
         speed: 0.2
       });
 

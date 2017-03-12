@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-
 import { Navigation } from './components/app.js'
+import { Header } from './components/app.js'
+import { Gallery } from './components/app.js'
+import { ContactForm } from './components/app.js'
+import { Footer } from './components/app.js'
+
 
 class App extends Component {
   render() {
@@ -12,52 +16,11 @@ class App extends Component {
 
 
           <div id="section1">
-            <header id="header-area" className="intro-section">
-              <div className="container">
-                <div className="row">
-                  <div className="col-sm-12 text-center">
-                    <div className="header-content">
-                      <h1>Cleone Jacob</h1>
-                      <h4>Front-End Web Developer</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </header>
+            <Header />
           </div>
           <div id="section2">
-            <section id="feature-area" className="about-section">
-              <div className="container">
-                <div className="row text-center inner">
-                  <div className="col-sm-4">
-                    <div className="feature-content">
-                      <img src="img/the_know.jpeg" alt="Image"/>
-                      <h2 className="feature-content-title green-text">Bootstrap v3.3.6</h2>
-                      <p className="feature-content-description">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque.
-                      </p>
-                      <a href="#" className="feature-content-link green-btn">button green</a>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="feature-content">
-                      <img src="img/1-2.jpg" alt="Image"/>
-                      <h2 className="feature-content-title blue-text">Responsive Design</h2>
-                      <p className="feature-content-description">Conquer Template is provided by templatemo for free of charge. You can use this template for any kind of website. No credit link is required. All images by <a href="http://unsplash.com" target="_parent">Unsplash</a>. Thank you for visiting our website. Please come again!</p>
-                      <a href="#" className="feature-content-link blue-btn">See Details</a>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="feature-content">
-                      <img src="img/1-3.jpg" alt="Image"/>
-                      <h2 className="feature-content-title red-text">Parallax Layout</h2>
-                      <p className="feature-content-description">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque.
-                      </p>
-                      <a href="#" className="feature-content-link red-btn">Button Red</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <Gallery />
+
 
 
 
@@ -150,7 +113,7 @@ class App extends Component {
                       <div className="row">
                         <div className="col-lg-12">
                           <div className="tm-box">
-                            <img src="img/4-5.jpg" alt="Image" className="img-responsive"/>
+                            <img src="img/tesla.jpg" alt="Image" className="img-responsive"/>
                             <div className="tm-box-description">
                               <h2>One Big Column</h2>
                               <p className="tm-box-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci.</p>
@@ -184,49 +147,15 @@ class App extends Component {
                         </div>
                         <div className="row">
                           <div className="col-lg-12">
-                            <form action="#" method="post" className="contact-form">
-                              <div className="col-sm-6 contact-form-left">
-                                <div className="form-group">
-                                  <input name="name" type="text" className="form-control" id="name" placeholder="Name"/>
-                                    <input type="email" name="email" className="form-control" id="mail" placeholder="Email"/>
-                                  <input name="subject" type="text" className="form-control" id="subject" placeholder="Subject"/>
-                                </div>
-                              </div>
-                              <div className="col-sm-6 contact-form-right">
-                                <div className="form-group">
-                                  <textarea name="message" rows="6" className="form-control" id="comment" placeholder="Your message here..."></textarea>
-                                  <button type="submit" className="btn btn-default">Send</button>
-                                </div>
-                              </div>
-                            </form>
+                            <ContactForm />
                           </div>
                         </div>
                       </div>
                     </section>
                   </div>
+                  <Footer />
 
 
-                  <footer id="footer-area">
-                    <div className="container">
-                      <div className="row text-center">
-                        <div className="col-sm-12">
-                          <div className="footer-content">
-                            <h1>Use it free!</h1>
-                            <p>“Conquer is free Bootstrap template from templatemo website.
-                              <br/>No backlink is required to use this layout.”</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <hr/>
-                      <div className="container">
-                        <div className="row">
-                          <div className="col-sm-12 text-center">
-                            <p className="copy">Copyright © 2084 Your Company Name</p>
-                          </div>
-                        </div>
-                      </div>
-                    </footer>
                 </div>
     )
   }
