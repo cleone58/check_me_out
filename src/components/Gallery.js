@@ -24,7 +24,7 @@ export default (props)=> {
           </div>
           <div className="col-sm-4">
             <div className="feature-content">
-              <img src="img/1-3.jpg" alt="Image"/>
+              <img src="img/my_albums.png" alt="Image"/>
               <h2 className="feature-content-title red-text">Parallax Layout</h2>
               <p className="feature-content-description">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque.
               </p>
