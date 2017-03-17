@@ -9664,27 +9664,31 @@ exports.default = function (props) {
           _react2.default.createElement(
             "div",
             { className: "feature-content" },
-            _react2.default.createElement("img", { src: "img/my_weather.png", id: "weather_app", alt: "Image" }),
             _react2.default.createElement(
-              "h2",
-              { className: "feature-content-title blue-text" },
-              "Responsive Design"
-            ),
-            _react2.default.createElement(
-              "p",
-              { className: "feature-content-description" },
-              "Conquer Template is provided by templatemo for free of charge. You can use this template for any kind of website. No credit link is required. All images by ",
+              "div",
+              { className: "weather" },
+              _react2.default.createElement("img", { src: "img/my_weather.png", alt: "Image" }),
+              _react2.default.createElement(
+                "h2",
+                { className: "feature-content-title blue-text" },
+                "Responsive Design"
+              ),
+              _react2.default.createElement(
+                "p",
+                { className: "feature-content-description" },
+                "Conquer Template is provided by templatemo for free of charge. You can use this template for any kind of website. No credit link is required. All images by ",
+                _react2.default.createElement(
+                  "a",
+                  { href: "http://unsplash.com", target: "_parent" },
+                  "Unsplash"
+                ),
+                ". Thank you for visiting our website. Please come again!"
+              ),
               _react2.default.createElement(
                 "a",
-                { href: "http://unsplash.com", target: "_parent" },
-                "Unsplash"
-              ),
-              ". Thank you for visiting our website. Please come again!"
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#", className: "feature-content-link blue-btn" },
-              "See Details"
+                { href: "#", className: "feature-content-link blue-btn" },
+                "See Details"
+              )
             )
           )
         ),
@@ -9694,21 +9698,25 @@ exports.default = function (props) {
           _react2.default.createElement(
             "div",
             { className: "feature-content" },
-            _react2.default.createElement("img", { src: "img/my_albums.png", alt: "Image" }),
             _react2.default.createElement(
-              "h2",
-              { className: "feature-content-title red-text" },
-              "Parallax Layout"
-            ),
-            _react2.default.createElement(
-              "p",
-              { className: "feature-content-description" },
-              "Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque."
-            ),
-            _react2.default.createElement(
-              "a",
-              { href: "#", className: "feature-content-link red-btn" },
-              "Button Red"
+              "div",
+              { className: "swift" },
+              _react2.default.createElement("img", { src: "img/my_albums.png", alt: "Image" }),
+              _react2.default.createElement(
+                "h2",
+                { className: "feature-content-title red-text" },
+                "Parallax Layout"
+              ),
+              _react2.default.createElement(
+                "p",
+                { className: "feature-content-description" },
+                "Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque."
+              ),
+              _react2.default.createElement(
+                "a",
+                { href: "#", className: "feature-content-link red-btn" },
+                "Button Red"
+              )
             )
           )
         )
