@@ -3,10 +3,11 @@ import Header from './Header'
 import Gallery from './Gallery'
 import ContactForm from './ContactForm'
 import Footer from './Footer'
-
-//import Header from './Header'
+import Social from './Social'
+import Link from './Link'
+import Blog from './Blog'
 
 export {
-  Navigation, Footer, Header, Gallery, ContactForm
+  Navigation, Footer, Header, Gallery, ContactForm, Social, Link, Blog
 
 }

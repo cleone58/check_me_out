@@ -9446,7 +9446,7 @@ module.exports = ReactPropTypesSecret;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ContactForm = exports.Gallery = exports.Header = exports.Footer = exports.Navigation = undefined;
+exports.Blog = exports.Link = exports.Social = exports.ContactForm = exports.Gallery = exports.Header = exports.Footer = exports.Navigation = undefined;
 
 var _Navigation = __webpack_require__(86);
 
@@ -9468,15 +9468,28 @@ var _Footer = __webpack_require__(83);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _Social = __webpack_require__(184);
 
-//import Header from './Header'
+var _Social2 = _interopRequireDefault(_Social);
+
+var _Link = __webpack_require__(185);
+
+var _Link2 = _interopRequireDefault(_Link);
+
+var _Blog = __webpack_require__(186);
+
+var _Blog2 = _interopRequireDefault(_Blog);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.Navigation = _Navigation2.default;
 exports.Footer = _Footer2.default;
 exports.Header = _Header2.default;
 exports.Gallery = _Gallery2.default;
 exports.ContactForm = _ContactForm2.default;
+exports.Social = _Social2.default;
+exports.Link = _Link2.default;
+exports.Blog = _Blog2.default;
 
 /***/ }),
 /* 81 */
@@ -22148,75 +22161,7 @@ var App = function (_Component) {
         _react2.default.createElement(
           'div',
           { id: 'section2' },
-          _react2.default.createElement(_app.Gallery, null),
-          _react2.default.createElement(
-            'section',
-            { id: 'blog-area' },
-            _react2.default.createElement(
-              'div',
-              { className: 'container' },
-              _react2.default.createElement(
-                'div',
-                { className: 'row text-center inner' },
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col-sm-6' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'blog-content' },
-                    _react2.default.createElement('img', { src: 'img/2-1.jpg', alt: 'Image' }),
-                    _react2.default.createElement(
-                      'h2',
-                      null,
-                      'Two Column Left Side'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium.',
-                      _react2.default.createElement('br', null),
-                      _react2.default.createElement('br', null),
-                      'Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus.'
-                    ),
-                    _react2.default.createElement('br', null)
-                  )
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col-sm-6' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'blog-content' },
-                    _react2.default.createElement('img', { src: 'img/2-2.jpg', alt: 'Image' }),
-                    _react2.default.createElement(
-                      'h2',
-                      null,
-                      'Two Column Right Side'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium.',
-                      _react2.default.createElement('br', null),
-                      _react2.default.createElement('br', null),
-                      'Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus.'
-                    ),
-                    _react2.default.createElement(
-                      'span',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'read more'
-                      )
-                    ),
-                    _react2.default.createElement('br', null),
-                    _react2.default.createElement('p', { id: 'blofr' })
-                  )
-                )
-              )
-            )
-          )
+          _react2.default.createElement(_app.Gallery, null)
         ),
         _react2.default.createElement(
           'div',
@@ -22255,147 +22200,7 @@ var App = function (_Component) {
               )
             )
           ),
-          _react2.default.createElement(
-            'section',
-            { id: 'testimornial-area' },
-            _react2.default.createElement(
-              'div',
-              { className: 'container' },
-              _react2.default.createElement(
-                'div',
-                { className: 'row text-center' },
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'testimonial-content' },
-                    _react2.default.createElement('img', { src: 'img/4-1.jpg', alt: 'Image' }),
-                    _react2.default.createElement(
-                      'h2',
-                      null,
-                      'Column One'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis. Fusce posuere egestas enim eu viverra.'
-                    ),
-                    _react2.default.createElement('br', null)
-                  )
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'testimonial-content' },
-                    _react2.default.createElement('img', { src: 'img/4-2.jpg', alt: 'Image' }),
-                    _react2.default.createElement(
-                      'h2',
-                      null,
-                      'Column Two'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis.'
-                    ),
-                    _react2.default.createElement(
-                      'a',
-                      { href: '#', className: 'content-link' },
-                      'read it'
-                    ),
-                    _react2.default.createElement('br', null),
-                    _react2.default.createElement('p', { id: 'redd' })
-                  )
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'testimonial-content' },
-                    _react2.default.createElement('img', { src: 'img/4-3.jpg', alt: 'Image' }),
-                    _react2.default.createElement(
-                      'h2',
-                      null,
-                      'Column Three'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis. Fusce posuere egestas enim eu viverra.'
-                    ),
-                    _react2.default.createElement('br', null)
-                  )
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'testimonial-content' },
-                    _react2.default.createElement('img', { src: 'img/4-4.jpg', alt: 'Image' }),
-                    _react2.default.createElement(
-                      'h2',
-                      null,
-                      'Column Four'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis.'
-                    ),
-                    _react2.default.createElement(
-                      'a',
-                      { href: '#', className: 'content-link' },
-                      'details'
-                    ),
-                    _react2.default.createElement('br', null),
-                    _react2.default.createElement('p', { id: 'dets' })
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'row' },
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col-lg-12' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'tm-box' },
-                    _react2.default.createElement('img', { src: 'img/tesla.jpg', alt: 'Image', className: 'img-responsive' }),
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'tm-box-description' },
-                      _react2.default.createElement(
-                        'h2',
-                        null,
-                        'One Big Column'
-                      ),
-                      _react2.default.createElement(
-                        'p',
-                        { className: 'tm-box-p' },
-                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci.'
-                      ),
-                      _react2.default.createElement(
-                        'p',
-                        { className: 'tm-box-p' },
-                        'Fusce eu porta massa, sed tincidunt turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus a urna tellus. Integer pharetra vitae nisi et lacinia. Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque quis, maximus eget nisi.'
-                      ),
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'content-link' },
-                        'Read More'
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          )
+          _react2.default.createElement(_app.Blog, null)
         ),
         _react2.default.createElement(
           'div',
@@ -22452,6 +22257,22 @@ var App = function (_Component) {
             )
           )
         ),
+        _react2.default.createElement(
+          'div',
+          { className: 'social' },
+          _react2.default.createElement(
+            'a',
+            { href: 'https://github.com/cleone58' },
+            _react2.default.createElement(_app.Social, { styles: 'social-button', image: 'http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2014/04/22/github-logo.png' }),
+            ' '
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://www.linkedin.com/in/cleonejacobsr/' },
+            ' ',
+            _react2.default.createElement(_app.Social, { styles: 'social-button', image: 'https://image.flaticon.com/icons/svg/61/61109.svg' })
+          )
+        ),
         _react2.default.createElement(_app.Footer, null)
       );
     }
@@ -22461,6 +22282,111 @@ var App = function (_Component) {
 }(_react.Component);
 
 _reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('root'));
+
+/***/ }),
+/* 184 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(17);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+  return _react2.default.createElement('img', { className: props.styles, src: props.image });
+};
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(17);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+  return _react2.default.createElement("a", { href: props.href });
+};
+
+/***/ }),
+/* 186 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(17);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var styles = { margin: "0 auto" };
+
+exports.default = function (props) {
+  return _react2.default.createElement(
+    "section",
+    { className: "blogStyle", id: "testimornial-area" },
+    _react2.default.createElement(
+      "div",
+      { className: "row" },
+      _react2.default.createElement(
+        "div",
+        { className: "col-lg-12" },
+        _react2.default.createElement(
+          "div",
+          { className: "tm-box" },
+          _react2.default.createElement("img", { src: "img/tesla.jpg", alt: "Image", className: "img-responsive" }),
+          _react2.default.createElement(
+            "div",
+            { className: "tm-box-description" },
+            _react2.default.createElement(
+              "h2",
+              null,
+              "One Big Column"
+            ),
+            _react2.default.createElement(
+              "p",
+              { className: "tm-box-p" },
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci."
+            ),
+            _react2.default.createElement(
+              "p",
+              { className: "tm-box-p" },
+              "Fusce eu porta massa, sed tincidunt turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus a urna tellus. Integer pharetra vitae nisi et lacinia. Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque quis, maximus eget nisi."
+            ),
+            _react2.default.createElement(
+              "a",
+              { href: "#", className: "content-link" },
+              "Read More"
+            )
+          )
+        )
+      )
+    )
+  );
+};
 
 /***/ })
 /******/ ]);
