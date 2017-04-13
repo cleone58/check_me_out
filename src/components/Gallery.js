@@ -8,19 +8,19 @@ export default (props)=> {
           <div className="col-sm-4">
             <div className="feature-content">
               <img src="img/the_know.jpeg" alt="Image"/>
-              <h2 className="feature-content-title green-text">Bootstrap v3.3.6</h2>
-              <p className="feature-content-description">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque.
+              <h2 className="feature-content-title green-text">The Know</h2>
+              <p className="feature-content-description">“The know” is a Rails web application that provides users with global access and ticket purchasing to various event listings such as concerts, sporting events, theater, etc. Access to tickets is made available with the SeatGeek API.
               </p>
-              <a href="#" className="feature-content-link green-btn">button green</a>
+              <a href="#" className="feature-content-link green-btn">View on Github</a>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="feature-content">
               <div className="weather">
                 <img src="img/my_weather.png" alt="Image"/>
-                <h2 className="feature-content-title blue-text">Responsive Design</h2>
-                <p className="feature-content-description">Conquer Template is provided by templatemo for free of charge. You can use this template for any kind of website. No credit link is required. All images by <a href="http://unsplash.com" target="_parent">Unsplash</a>. Thank you for visiting our website. Please come again!</p>
-                <a href="#" className="feature-content-link blue-btn">See Details</a>
+                <h2 className="feature-content-title blue-text">Weather_React</h2>
+                <p className="feature-content-description"> "Weather_React" is a really cool React/Redux application that allows users to grab five day forecasts from any of their favorite cities. This application uses the Open Weather Maps API & Google Maps API.</p>
+                <a href="#" className="feature-content-link blue-btn">View on Github</a>
               </div>
             </div>
           </div>
@@ -28,10 +28,10 @@ export default (props)=> {
             <div className="feature-content">
               <div className="swift">
                 <img src="img/my_albums.png" alt="Image"/>
-                <h2 className="feature-content-title red-text">Parallax Layout</h2>
-                <p className="feature-content-description">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque.
+                <h2 className="feature-content-title red-text">My Albums</h2>
+                <p className="feature-content-description">'My Albums' is a React/Native IOS App that uses the Amazon API that allows users to view an artist or album, and if they wish to purchase they click the 'buy now' button which will take them to the Amazon shopping cart.
                 </p>
-                <a href="#" className="feature-content-link red-btn">Button Red</a>
+                <a href="#" className="feature-content-link red-btn">View on Github</a>
               </div>
             </div>
           </div>
