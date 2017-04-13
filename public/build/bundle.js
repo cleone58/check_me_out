@@ -9922,7 +9922,7 @@ exports.default = function (props) {
             _react2.default.createElement(
               "a",
               { href: "#section2" },
-              "About Us"
+              "Projects"
             )
           ),
           _react2.default.createElement(
@@ -9931,7 +9931,7 @@ exports.default = function (props) {
             _react2.default.createElement(
               "a",
               { href: "#section3" },
-              "Services"
+              "About Me"
             )
           ),
           _react2.default.createElement(
