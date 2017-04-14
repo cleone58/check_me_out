@@ -9948,8 +9948,8 @@ exports.default = function (props) {
             null,
             _react2.default.createElement(
               "a",
-              { href: "http://www.google.com/+templatemo", className: "external", title: "+templatemo page", target: "_blank" },
-              "External"
+              { href: "https://github.com/cleone58", className: "external", title: "+templatemo page", target: "_blank" },
+              "Github"
             )
           )
         )
@@ -22283,16 +22283,16 @@ var App = function (_Component) {
                     _react2.default.createElement(
                       'h1',
                       null,
-                      'Our Services'
+                      'About Me'
                     ),
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id ',
+                      'Technology and Sports are two major passion of mine, I feel combining both these passions are a match made in heaven. ',
                       _react2.default.createElement('br', null),
-                      'felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. ',
+                      'As a Front End Developer with a deep interest with the React Ecosystem my aim is to continue to level up on my skills, continue to create really cool apps, ',
                       _react2.default.createElement('br', null),
-                      'Etiam a mi quis arcu varius condimentum.'
+                      'and spread my knowledge to anybody who is interested in getting into Computer Programming.'
                     )
                   )
                 )

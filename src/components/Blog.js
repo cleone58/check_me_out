@@ -4,6 +4,9 @@ const styles={margin: "0 auto"}
 
 export default props => {
   return (
+
+    
+
     <section className="blogStyle" id="testimornial-area">
 
         <div className="row">

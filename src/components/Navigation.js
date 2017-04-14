@@ -18,7 +18,7 @@ export default (props) => {
             <li><a href="#section2">Projects</a></li>
             <li><a href="#section3">About Me</a></li>
             <li><a href="#section4">Contact</a></li>
-            <li><a href="http://www.google.com/+templatemo" className="external" title="+templatemo page" target="_blank">External</a></li>
+            <li><a href="https://github.com/cleone58" className="external" title="+templatemo page" target="_blank">Github</a></li>
           </ul>
         </div>
       </div>

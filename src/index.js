@@ -33,10 +33,10 @@ class App extends Component {
                     <div className="row">
                       <div className="col-sm-12 text-center inner our-service">
                         <div className="service">
-                          <h1>Our Services</h1>
-                          <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id <br/>
-                            felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. <br/>
-                            Etiam a mi quis arcu varius condimentum.</p>
+                          <h1>About Me</h1>
+                          <p>Technology and Sports are two major passion of mine, I feel combining both these passions are a match made in heaven. <br/>
+                             As a Front End Developer with a deep interest with the React Ecosystem my aim is to continue to level up on my skills, continue to create really cool apps, <br/>
+                            and spread my knowledge to anybody who is interested in getting into Computer Programming.</p>
                           </div>
                         </div>
                       </div>
