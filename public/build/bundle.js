@@ -9729,7 +9729,7 @@ exports.default = function (props) {
             ),
             _react2.default.createElement(
               "a",
-              { href: "#", className: "feature-content-link green-btn" },
+              { href: "https://github.com/cleone58/theknowfinal", className: "feature-content-link green-btn" },
               "View on Github"
             )
           )
@@ -9756,7 +9756,7 @@ exports.default = function (props) {
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "feature-content-link blue-btn" },
+                { href: "https://github.com/cleone58/weatherReact", className: "feature-content-link blue-btn" },
                 "View on Github"
               )
             )
@@ -9784,7 +9784,7 @@ exports.default = function (props) {
               ),
               _react2.default.createElement(
                 "a",
-                { href: "#", className: "feature-content-link red-btn" },
+                { href: "https://github.com/cleone58/myalbums", className: "feature-content-link red-btn" },
                 "View on Github"
               )
             )
@@ -9948,7 +9948,7 @@ exports.default = function (props) {
             null,
             _react2.default.createElement(
               "a",
-              { href: "https://github.com/cleone58", className: "external", title: "+templatemo page", target: "_blank" },
+              { href: "https://github.com/cleone58", className: "external", target: "_blank" },
               "Github"
             )
           )
