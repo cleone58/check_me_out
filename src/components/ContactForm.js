@@ -13,7 +13,7 @@ export default (props)=> {
       <div className="col-sm-6 contact-form-right">
         <div className="form-group">
           <textarea name="message" rows="6" className="form-control" id="comment" placeholder="Your message here..."></textarea>
-          <button type="submit" className="btn btn-default">Send</button>
+          <button type="submit" className="btn btn-default" href="mailto:cleonejacobsr@gmail.com">Send</button>
         </div>
       </div>
     </form>

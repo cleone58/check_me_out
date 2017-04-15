@@ -9605,7 +9605,7 @@ exports.default = function (props) {
         _react2.default.createElement("textarea", { name: "message", rows: "6", className: "form-control", id: "comment", placeholder: "Your message here..." }),
         _react2.default.createElement(
           "button",
-          { type: "submit", className: "btn btn-default" },
+          { type: "submit", className: "btn btn-default", href: "mailto:cleonejacobsr@gmail.com" },
           "Send"
         )
       )
@@ -22333,11 +22333,10 @@ var App = function (_Component) {
                         _react2.default.createElement(
                           'p',
                           null,
-                          'Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id ',
+                          'For Web Development enquires whether it be projects, freelance gigs, job opportunities etc. ',
                           _react2.default.createElement('br', null),
-                          'felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. ',
-                          _react2.default.createElement('br', null),
-                          'Etiam a mi quis arcu varius condimentum.'
+                          'feel free to drop me a line, or you can hit me up via my social media feeds below. ',
+                          _react2.default.createElement('br', null)
                         )
                       )
                     )

@@ -59,9 +59,9 @@ class App extends Component {
                             <h1>contact form</h1>
                             <div className="row">
                               <div className="col-sm-12">
-                                <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id <br/>
-                                  felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. <br/>
-                                  Etiam a mi quis arcu varius condimentum.</p>
+                                <p>For Web Development enquires whether it be projects, freelance gigs, job opportunities etc. <br/>
+                                  feel free to drop me a line, or you can hit me up via my social media feeds below. <br/>
+                                </p>
                                 </div>
                               </div>
 
