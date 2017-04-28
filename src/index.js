@@ -77,8 +77,8 @@ class App extends Component {
                     </section>
                   </div>
                   <div className="social">
-                    <a href="https://github.com/cleone58"><Social styles="social-button"  image="http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2014/04/22/github-logo.png"/> </a>
-                    <a href="https://www.linkedin.com/in/cleonejacobsr/"> <Social styles="social-button"  image="https://image.flaticon.com/icons/svg/61/61109.svg" /></a>
+                    <a class="rotationButton" href="https://github.com/cleone58"><Social styles="social-button"  image="http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2014/04/22/github-logo.png"/> </a>
+                    <a class="rotationButton"  href="https://www.linkedin.com/in/cleonejacobsr/"> <Social styles="social-button"  image="https://image.flaticon.com/icons/svg/61/61109.svg" /></a>
                   </div>
                   <Footer />
 
