@@ -21,5 +21,8 @@
     "react-fontawesome": "^1.5.0",
     "serve-favicon": "~2.3.2",
     "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "video.js": "^5.19.2"
   }
 }

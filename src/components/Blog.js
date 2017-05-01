@@ -5,7 +5,7 @@ const styles={margin: "0 auto"}
 export default props => {
   return (
 
-    
+
 
     <section className="blogStyle" id="testimornial-area">
 
@@ -22,6 +22,6 @@ export default props => {
             </div>
           </div>
         </div>
-    </section>
+      </section>
   )
 }
