@@ -22307,7 +22307,7 @@ var App = function (_Component) {
                       null,
                       'Technology and Sports are two major passions of mine, I feel combining both these passions are a match made in heaven. ',
                       _react2.default.createElement('br', null),
-                      'As a Front End Developer with a deep interest of JavaScript and the React Ecosystem my aim is to continue to increase my scriptiing and overall programming knowledge so that I can continue to create really cool apps.'
+                      'As a Front End Developer with a deep interest of JavaScript and the React Eco-System my aim is to continue to increase my scripting and overall programming knowledge so that I can continue to create really cool apps.'
                     ),
                     ' ',
                     _react2.default.createElement('br', null),
