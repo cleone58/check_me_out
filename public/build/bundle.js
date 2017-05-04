@@ -9529,34 +9529,32 @@ exports.default = function (props) {
       { className: "row" },
       _react2.default.createElement(
         "div",
-        { className: "col-lg-12" },
+        { className: "col-md-12" },
         _react2.default.createElement(
           "div",
           { className: "tm-box" },
-          _react2.default.createElement("img", { src: "img/tesla.jpg", alt: "Image", className: "img-responsive" }),
+          _react2.default.createElement("iframe", { src: "https://player.vimeo.com/video/161225080?color=ff0000&title=0&byline=0&portrait=0", width: "1140", height: "360", frameborder: "0", webkitallowfullscreen: true, mozallowfullscreen: true, allowfullscreen: true }),
           _react2.default.createElement(
-            "div",
-            { className: "tm-box-description" },
-            _react2.default.createElement(
-              "h2",
-              null,
-              "One Big Column"
-            ),
-            _react2.default.createElement(
-              "p",
-              { className: "tm-box-p" },
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum. Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in, sollicitudin convallis orci."
-            ),
-            _react2.default.createElement(
-              "p",
-              { className: "tm-box-p" },
-              "Fusce eu porta massa, sed tincidunt turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus a urna tellus. Integer pharetra vitae nisi et lacinia. Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque quis, maximus eget nisi."
-            ),
+            "p",
+            null,
             _react2.default.createElement(
               "a",
-              { href: "#", className: "content-link" },
-              "Read More"
-            )
+              { href: "https://vimeo.com/161225080" },
+              " I really need one of these! Tesla Model 3"
+            ),
+            " from ",
+            _react2.default.createElement(
+              "a",
+              { href: "https://vimeo.com/teslamotors" },
+              "Tesla, Inc"
+            ),
+            " on ",
+            _react2.default.createElement(
+              "a",
+              { href: "https://vimeo.com" },
+              "Vimeo"
+            ),
+            "."
           )
         )
       )
@@ -22288,11 +22286,20 @@ var App = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Technology and Sports are two major passion of mine, I feel combining both these passions are a match made in heaven. ',
+                      'Technology and Sports are two major passions of mine, I feel combining both these passions are a match made in heaven. ',
                       _react2.default.createElement('br', null),
-                      'As a Front End Developer with a deep interest with the React Ecosystem my aim is to continue to level up on my skills, continue to create really cool apps, ',
+                      'As a Front End Developer with a deep interest of JavaScript and the React Ecosystem my aim is to continue to increase my scriptiing and overall programming knowledge so that I can continue to create really cool apps.'
+                    ),
+                    ' ',
+                    _react2.default.createElement('br', null),
+                    _react2.default.createElement(
+                      'p',
+                      null,
+                      '"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven\'t found it yet, keep looking.',
                       _react2.default.createElement('br', null),
-                      'and spread my knowledge to anybody who is interested in getting into Computer Programming.'
+                      'Don\'t settle. As with all matters of the heart, you\'ll know when you find it."',
+                      _react2.default.createElement('br', null),
+                      'Steve Jobbs'
                     )
                   )
                 )
@@ -22360,13 +22367,13 @@ var App = function (_Component) {
           { className: 'social' },
           _react2.default.createElement(
             'a',
-            { href: 'https://github.com/cleone58' },
+            { 'class': 'rotationButton', href: 'https://github.com/cleone58' },
             _react2.default.createElement(_app.Social, { styles: 'social-button', image: 'http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2014/04/22/github-logo.png' }),
             ' '
           ),
           _react2.default.createElement(
             'a',
-            { href: 'https://www.linkedin.com/in/cleonejacobsr/' },
+            { 'class': 'rotationButton', href: 'https://www.linkedin.com/in/cleonejacobsr/' },
             ' ',
             _react2.default.createElement(_app.Social, { styles: 'social-button', image: 'https://image.flaticon.com/icons/svg/61/61109.svg' })
           )

@@ -34,9 +34,12 @@ class App extends Component {
                       <div className="col-sm-12 text-center inner our-service">
                         <div className="service">
                           <h1>About Me</h1>
-                          <p>Technology and Sports are two major passion of mine, I feel combining both these passions are a match made in heaven. <br/>
-                             As a Front End Developer with a deep interest with the React Ecosystem my aim is to continue to level up on my skills, continue to create really cool apps, <br/>
-                            and spread my knowledge to anybody who is interested in getting into Computer Programming.</p>
+                          <p>Technology and Sports are two major passions of mine, I feel combining both these passions are a match made in heaven. <br/>
+                             As a Front End Developer with a deep interest of JavaScript and the React Ecosystem my aim is to continue to increase my scriptiing and overall programming knowledge so that I can continue to create really cool apps.</p> <br/>
+                          <p>"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking.<br/>
+                             Don't settle. As with all matters of the heart, you'll know when you find it."<br/>
+                             Steve Jobbs</p>
+
                           </div>
                         </div>
                       </div>
