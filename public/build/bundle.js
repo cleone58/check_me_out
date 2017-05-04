@@ -9671,6 +9671,25 @@ exports.default = function (props) {
           "div",
           { className: "col-sm-12 text-center" },
           _react2.default.createElement(
+            "div",
+            { className: "promo" },
+            " ",
+            _react2.default.createElement(
+              "p",
+              null,
+              "Need a domain name? Click below for cheap available domains including dot.com domain names for 0.99 cents!"
+            )
+          ),
+          _react2.default.createElement(
+            "h1",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "http://www.1and1.com/web-hosting?kwk=529082282&ac=OM.US.US930K244547B7030a", rel: "nofollow" },
+              _react2.default.createElement("img", { src: "http://adimg.uimserv.net/1und1/KWK/Classic-Hosting/US/NewHosting_kwk_us_sw_728x90.gif" })
+            )
+          ),
+          _react2.default.createElement(
             "p",
             { className: "copy" },
             "Copyright \xA9 2017 House of Jacob Designs"
