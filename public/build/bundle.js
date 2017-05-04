@@ -9677,7 +9677,7 @@ exports.default = function (props) {
             _react2.default.createElement(
               "p",
               null,
-              "Need a domain name? Click below for cheap available domains including dot.com domain names for 0.99 cents!"
+              "Need a domain name? Click below for cheap available domains including dot.com domain names for just 0.99 cents!"
             )
           ),
           _react2.default.createElement(
