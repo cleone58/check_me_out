@@ -54,6 +54,7 @@ class App extends Component {
 
                 </div>
                 <div id="section4">
+                <div className="wrapper">
                   <section id="contact-area" className="contact-section">
                     <div className="container">
                       <div className="row">
@@ -63,7 +64,7 @@ class App extends Component {
                             <div className="row">
                               <div className="col-sm-12">
                                 <p>For Web Development enquires whether it be projects, freelance gigs, job opportunities etc. <br/>
-                                  feel free to drop me a line, or you can hit me up via my social media feeds below. <br/>
+                                  feel free to drop me a line, or you can hit me up via my social media channels below. <br/>
                                 </p>
                                 </div>
                               </div>
@@ -78,6 +79,7 @@ class App extends Component {
                         </div>
                       </div>
                     </section>
+                    </div>
                   </div>
                   <div className="social">
                     <a class="rotationButton" href="https://github.com/cleone58"><Social styles="social-button"  image="http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2014/04/22/github-logo.png"/> </a>

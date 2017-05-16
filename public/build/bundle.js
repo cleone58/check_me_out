@@ -9603,7 +9603,7 @@ exports.default = function (props) {
         _react2.default.createElement("textarea", { name: "message", rows: "6", className: "form-control", id: "comment", placeholder: "Your message here..." }),
         _react2.default.createElement(
           "button",
-          { type: "submit", className: "btn btn-default", href: "mailto:cleonejacobsr@gmail.com" },
+          { type: "submit", className: "button__submit", href: "mailto:cleonejacobsr@gmail.com" },
           "Send"
         )
       )
@@ -9733,7 +9733,11 @@ exports.default = function (props) {
           _react2.default.createElement(
             "div",
             { className: "feature-content" },
-            _react2.default.createElement("img", { src: "img/the_know.jpeg", alt: "Image" }),
+            _react2.default.createElement(
+              "div",
+              { className: "images__style" },
+              _react2.default.createElement("img", { src: "img/the_know.jpeg", alt: "Image" })
+            ),
             _react2.default.createElement(
               "h2",
               { className: "feature-content-title green-text" },
@@ -9760,7 +9764,11 @@ exports.default = function (props) {
             _react2.default.createElement(
               "div",
               { className: "weather" },
-              _react2.default.createElement("img", { src: "img/my_weather.png", alt: "Image" }),
+              _react2.default.createElement(
+                "div",
+                { className: "images__style" },
+                _react2.default.createElement("img", { src: "img/my_weather.png", alt: "Image" })
+              ),
               _react2.default.createElement(
                 "h2",
                 { className: "feature-content-title blue-text" },
@@ -9788,7 +9796,11 @@ exports.default = function (props) {
             _react2.default.createElement(
               "div",
               { className: "swift" },
-              _react2.default.createElement("img", { src: "img/my_albums.png", alt: "Image" }),
+              _react2.default.createElement(
+                "div",
+                { className: "images__style" },
+                _react2.default.createElement("img", { src: "img/my_albums.png", alt: "Image" })
+              ),
               _react2.default.createElement(
                 "h2",
                 { className: "feature-content-title red-text" },
@@ -22331,51 +22343,55 @@ var App = function (_Component) {
           'div',
           { id: 'section4' },
           _react2.default.createElement(
-            'section',
-            { id: 'contact-area', className: 'contact-section' },
+            'div',
+            { className: 'wrapper' },
             _react2.default.createElement(
-              'div',
-              { className: 'container' },
+              'section',
+              { id: 'contact-area', className: 'contact-section' },
               _react2.default.createElement(
                 'div',
-                { className: 'row' },
+                { className: 'container' },
                 _react2.default.createElement(
                   'div',
-                  { className: 'col-sm-12 text-center inner' },
+                  { className: 'row' },
                   _react2.default.createElement(
                     'div',
-                    { className: 'contact-content' },
-                    _react2.default.createElement(
-                      'h1',
-                      null,
-                      'contact form'
-                    ),
+                    { className: 'col-sm-12 text-center inner' },
                     _react2.default.createElement(
                       'div',
-                      { className: 'row' },
+                      { className: 'contact-content' },
+                      _react2.default.createElement(
+                        'h1',
+                        null,
+                        'contact form'
+                      ),
                       _react2.default.createElement(
                         'div',
-                        { className: 'col-sm-12' },
+                        { className: 'row' },
                         _react2.default.createElement(
-                          'p',
-                          null,
-                          'For Web Development enquires whether it be projects, freelance gigs, job opportunities etc. ',
-                          _react2.default.createElement('br', null),
-                          'feel free to drop me a line, or you can hit me up via my social media feeds below. ',
-                          _react2.default.createElement('br', null)
+                          'div',
+                          { className: 'col-sm-12' },
+                          _react2.default.createElement(
+                            'p',
+                            null,
+                            'For Web Development enquires whether it be projects, freelance gigs, job opportunities etc. ',
+                            _react2.default.createElement('br', null),
+                            'feel free to drop me a line, or you can hit me up via my social media channels below. ',
+                            _react2.default.createElement('br', null)
+                          )
                         )
                       )
                     )
                   )
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'row' },
+                ),
                 _react2.default.createElement(
                   'div',
-                  { className: 'col-lg-12' },
-                  _react2.default.createElement(_app.ContactForm, null)
+                  { className: 'row' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'col-lg-12' },
+                    _react2.default.createElement(_app.ContactForm, null)
+                  )
                 )
               )
             )
