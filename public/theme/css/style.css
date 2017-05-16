@@ -325,7 +325,7 @@ h2 {
   text-shadow: 2px 2px #333;
 }
 .contact-content p {
-    background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+    background: rgba(245, 245, 245, 0.66) none repeat scroll 0 0;
     border-radius: 5px;
     color: #000;
     font-size: 16px;
@@ -339,7 +339,7 @@ input {
 }
 .form-control {
   border: none;
-  background: rgba(242, 242, 242, 0.4);
+  background: rgba(245, 245, 245, 0.66);
 }
 #comment.form-control {
 
