@@ -22317,7 +22317,7 @@ var App = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Technology and Sports are two major passions of mine, I feel combining both these passions are a match made in heaven. ',
+                      'Technology and Sports are two major passions of mine. I feel combining both these passions are a match made in heaven. ',
                       _react2.default.createElement('br', null),
                       'As a Front End Developer with a deep interest of JavaScript and the React Eco-System my aim is to continue to increase my scripting and overall programming knowledge so that I can continue to create really cool apps.'
                     ),
@@ -22330,7 +22330,7 @@ var App = function (_Component) {
                       _react2.default.createElement('br', null),
                       'Don\'t settle. As with all matters of the heart, you\'ll know when you find it."',
                       _react2.default.createElement('br', null),
-                      'Steve Jobbs'
+                      'Steve Jobs'
                     )
                   )
                 )
